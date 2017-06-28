@@ -1,0 +1,14 @@
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\bin\Debug\WPFJA.exe.config
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\bin\Debug\WPFJA.exe
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\bin\Debug\WPFJA.pdb
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\obj\Debug\WPFJA.csprojResolveAssemblyReference.cache
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\obj\Debug\MainWindow.g.cs
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\obj\Debug\App.g.cs
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\obj\Debug\WPFJA_MarkupCompile.cache
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\obj\Debug\WPFJA_MarkupCompile.lref
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\obj\Debug\MainWindow.baml
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\obj\Debug\WPFJA.g.resources
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\obj\Debug\WPFJA.Properties.Resources.resources
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\obj\Debug\WPFJA.csproj.GenerateResource.Cache
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\obj\Debug\WPFJA.exe
+c:\Users\O'Shea\documents\visual studio 2017\Projects\WPFJA\WPFJA\obj\Debug\WPFJA.pdb

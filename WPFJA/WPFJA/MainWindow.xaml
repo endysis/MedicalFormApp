@@ -1,0 +1,79 @@
+﻿<Window x:Class="WPFJA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFJA"
+        mc:Ignorable="d"
+        Title="VR Medical Consultancy Form" Height="325" Width="400">
+
+    <Border Padding="10">
+        <StackPanel>
+            <TextBlock Text="Patient Details" FontWeight="Bold" Margin="0 10"/>
+
+            <!--Full Name -->
+            <TextBlock Text= "Full Name"/>
+            <TextBox x:Name="NameText" Padding="2"/>
+
+            <!-- Status and Revision -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Status -->
+                <StackPanel Grid.Column="0" Margin="0 0 10 0">
+                    <TextBlock Text="Status"/>
+                    <ComboBox x:Name="StatusBox" SelectedIndex ="0" Background="#eee" Padding="2">
+                        <ComboBoxItem>Urgent</ComboBoxItem>
+                        <ComboBoxItem>Important</ComboBoxItem>
+                        <ComboBoxItem>Minor</ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+
+                <!-- Age -->
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Age"/>
+                    <TextBox x:Name ="AgeText" Padding="2"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Symptons -->
+            <TextBlock Text ="Patient Symptons" FontWeight="Bold" Margin="0 10"/>
+            <TextBlock Text="Specific Symptons" Margin="0 0 0 10"/>
+            <!-- Sympton Grid -->
+            <Grid x:Name="SymptonGrid" Margin="0 0 0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel   Grid.Column="0" Margin="0 0 10 0">
+                    <CheckBox x:Name="CB0" Content="Sore Throat"/>
+                    <CheckBox x:Name="CB1" Content="Strained Vision"/>
+                    <CheckBox x:Name="CB2" Content="Hot temperature"/>
+                    <CheckBox x:Name="CB3" Content="Unbalanced Walking"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1">
+                    <CheckBox x:Name="CB4" Content="Fatigue"/>
+                    <CheckBox x:Name="CB5" Content="Weight Gain"/>
+                    <CheckBox x:Name="CB6" Content="Skin Rashes"/>
+                    <CheckBox x:Name="CB7" Content="Frequent Coughing"/>
+                </StackPanel>
+            </Grid>
+            
+            
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width ="*"/>
+                    <ColumnDefinition Width ="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="ResetButton" Click="ResetButton_Click" Margin="0 0 10 0" Grid.Column="0" Content="Reset"/>
+                <Button x:Name="SendButton" Click="SendButton_Click" Margin="0 0 0 0" Grid.Column="1" Content="Send"/>
+            </Grid>
+        </StackPanel>
+    </Border>
+</Window>
